@@ -28,7 +28,7 @@ body {
     height: 20px;
     border-radius: 5px;
     background: content-box;
-    color: #01f6ff;
+    color: red;
     cursor: text;
 }
 .send {
@@ -40,6 +40,7 @@ body {
     cursor: pointer;
 }
 .sum_number_line {
-    padding-top: 25px;
-    color: #01f6ff;
+    padding-top: 50px;
+    color: white;
+    font-size: 17px;
 }
