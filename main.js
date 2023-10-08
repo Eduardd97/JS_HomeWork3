@@ -48,11 +48,11 @@ document.addEventListener("DOMContentLoaded", function(){
 
 // parseInt
 const str1 = "123456";
-const num1 = parseInt(str1); // num2 містить 4, число
+const num1 = parseInt(str1); 
 console.log (num1)
 
 const str2 = "4abcdef";
-const num2 = parseInt(str2); // num2 містить 4, число
+const num2 = parseInt(str2); 
 console.log (num2)
 
 const str3 = "ab4cdef";
