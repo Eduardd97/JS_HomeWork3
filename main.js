@@ -1,5 +1,5 @@
 // document.addEventListener("DOMContentLoaded", function(){}это действие срабатывает когда весь HTML-документ был полностью загружен и обработан браузером
-// aункцbя что передается в addEventListener для действия DOMContentLoaded, 
+// функцbя что передается в addEventListener для действия DOMContentLoaded, 
 // выполняется после того как браузер загрузил HTML но до того как загрузились внешние ресурсы такие как катинки або стили 
 document.addEventListener("DOMContentLoaded", function(){
     const NumberUserText = document.querySelector(".number_text")
@@ -35,13 +35,13 @@ document.addEventListener("DOMContentLoaded", function(){
         console.log(invertBoolean())
 
         // возвращаем true когда сума больше за длинну строки с текстом и возвращаем folse когда сумма числе меньше или равна длинне строки
-        // if (sumofDigits > userEnteredtext.length) {
-        //     SumNumberUserSendLine.textContent = `Сума цифр більша за довжину тексту: ${sumofDigits} > ${userEnteredtext.length}`;
-        // } else {
-        //     SumNumberUserSendLine.textContent = `Сума цифр не більша за довжину тексту: ${sumofDigits} <= ${userEnteredtext.length}`;
-        // }
+        if (sumofDigits > userEnteredtext.length) {
+            SumNumberUserSendLine.textContent = `Сума цифр більша за довжину тексту: ${sumofDigits} > ${userEnteredtext.length}`;
+        } else {
+            SumNumberUserSendLine.textContent = `Сума цифр не більша за довжину тексту: ${sumofDigits} <= ${userEnteredtext.length}`;
+        }
         
-        // NumberUserText.value = "";
+        NumberUserText.value = "";
     });   
 
 })
