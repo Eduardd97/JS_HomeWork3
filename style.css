@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(https://img.freepik.com/free-photo/a-digital-painting-of-a-mountain-with-a-colorful-tree-in-the-foreground_1340-25699.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.user_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    height: 350px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 1.5);
+}
+.number_text {
+    width: 60%;
+    height: 20px;
+    border-radius: 5px;
+    background: content-box;
+    color: #01f6ff;
+    cursor: text;
+}
+.send {
+    width: 20%;
+    height: 25px;
+    border-radius: 5px;
+    background: content-box;
+    color: #01f6ff;
+    cursor: pointer;
+}
+.sum_number_line {
+    padding-top: 25px;
+    color: #01f6ff;
+}
