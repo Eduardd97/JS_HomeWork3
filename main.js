@@ -19,15 +19,16 @@ document.addEventListener("DOMContentLoaded", function(){
     
         }
         const sumofDigits = CalculateSumDigits(userEnteredtext);
+        console.log (sumofDigits)
+        
         const SumGreaterThanLength = sumofDigits > userEnteredtext.length;
-            // Розрахунок суми цифр і порівняння з довжиною тексту
+        console.log(SumGreaterThanLength);
+
         if (sumofDigits > userEnteredtext.length) {
             SumNumberUserSendLine.textContent = `Сума цифр більша за довжину тексту: ${sumofDigits} > ${userEnteredtext.length}`;
         } else {
             SumNumberUserSendLine.textContent = `Сума цифр не більша за довжину тексту: ${sumofDigits} <= ${userEnteredtext.length}`;
         }
-        console.log (sumofDigits)
-        console.log(SumGreaterThanLength);
         
         NumberUserText.value = "";
     });   
