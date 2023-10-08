@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function(){
         function CalculateSumDigits(text) {
             let sum = 0;
             for (let i = 0; i < text.length; i++) {
-                const digit = parseInt(text.charAt(i)); // parseInt
+                const digit = parseInt(text.charAt(i)); 
                 if (!isNaN(digit)) {    // isNaN - проводим проверку является ли digit числом если да то добавляем его к sum и если же 
                     sum += digit;       // digit не является числом то просто его игнорируем.
                 }
@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function(){
 
 })
 
-
+// parseInt
 const str1 = "123456";
 const num1 = parseInt(str1); // num2 містить 4, число
 console.log (num1)
